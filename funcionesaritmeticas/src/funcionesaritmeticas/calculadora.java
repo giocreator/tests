@@ -18,6 +18,7 @@ public class calculadora
 	//variable  que realiza la operacion
 	int suma;
 	String i ="si";
+	String d ="XD";
 	
 	
     	do{
@@ -31,9 +32,15 @@ public class calculadora
           JOptionPane.showMessageDialog(null, "La suma  es " + suma,"resultado",JOptionPane.PLAIN_MESSAGE);
           
           i = JOptionPane.showInputDialog("Desea realizar otra  suma ");
+<<<<<<< HEAD
           System.out.println(i);
           } while(i.equalsIgnoreCase("si"));
     	if( i.equalsIgnoreCase("no"))
+=======
+          
+          }while( i == "si");
+    	if( i == "no")
+>>>>>>> 7c2a9cf8ae629c4505ddf38f78135f013252e21b
     	  {
     		JOptionPane.showMessageDialog(null, "Gracias por usar  el programa XD" );
     	  }
